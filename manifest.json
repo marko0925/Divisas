@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name" :"Divisas",
+    "version" : "0.1.0",
+    "description" : "app para ver las divisas del mundo",
+    "browser_action":{
+        "default_icon":"public/img/div.png",
+        "default_popup":"public/popup.html",
+        "default_title":"Divisas del mundo"
+    },
+    "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/", 
+    "http://api.openweathermap.org/*" 
+  ]
+}
