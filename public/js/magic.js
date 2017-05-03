@@ -4,6 +4,7 @@ $(document).ready(function () {
         $(".center-vertical").removeClass("active");
         $('.input').css('display', 'block');
         if (data) {
+            console.log("******MADE BY MARKO0925******");
             console.log(data);
             var num = 0;
             var carousel = $(".carousel");
